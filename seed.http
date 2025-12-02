@@ -1,0 +1,39 @@
+POST http://localhost:5000/api/menu/seed
+Content-Type: application/json
+
+{
+  "items": [
+    {
+      "name": "Caramel Latte",
+      "image": "https://images.unsplash.com/photo-1509042239860-f550ce710b93",
+      "description": "Rich espresso with caramel syrup and steamed milk.",
+      "category": "Coffee",
+      "price": 18,
+      "rating": 4.5
+    },
+    {
+      "name": "Iced Mocha",
+      "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085",
+      "description": "Chocolate, milk, and chilled espresso.",
+      "category": "Coffee",
+      "price": 20,
+      "rating": 4.7
+    },
+    {
+      "name": "Blueberry Muffin",
+      "image": "https://images.unsplash.com/photo-1523987355523-c7b5b12d6208",
+      "description": "Fresh blueberries baked into soft pastry.",
+      "category": "Pastries",
+      "price": 10,
+      "rating": 4.2
+    },
+    {
+      "name": "Chicken Wrap",
+      "image": "https://images.unsplash.com/photo-1604909052756-b5f430d6e6ad",
+      "description": "Grilled chicken, lettuce, sauce, soft tortilla.",
+      "category": "Snacks",
+      "price": 22,
+      "rating": 4.4
+    }
+  ]
+}
