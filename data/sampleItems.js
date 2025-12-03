@@ -89,6 +89,20 @@ const SAMPLE_ITEMS = [
     price: 4.5,
     desc: "Moist carrot cake with cream cheese frosting.",
     img: "https://res.cloudinary.com/diszilwhc/image/upload/c_fill,w_400,h_300/v1764680116/luis-covarrubias-ESXMLLiZcWU-unsplash_hryito.jpg"
+  },
+    {
+    name: "Salad Sandwich",
+    category: "Top Seller",
+    price: 4.8,
+    desc: "Fresh strawberries blended with yogurt and honey.",
+    img: "https://res.cloudinary.com/diszilwhc/image/upload/c_fill,w_400,h_300/v1764680116/jack-shingai-hdhWH1xoYwM-unsplash_lnikrh.jpg"
+  },
+  {
+    name: "Carrot Cake",
+    category: "Top Seller",
+    price: 4.5,
+    desc: "Moist carrot cake with cream cheese frosting.",
+    img: "https://res.cloudinary.com/diszilwhc/image/upload/c_fill,w_400,h_300/v1764680116/luis-covarrubias-ESXMLLiZcWU-unsplash_hryito.jpg"
   }
 ];
 
