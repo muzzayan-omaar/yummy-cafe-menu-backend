@@ -7,6 +7,7 @@ import adminRoutes from "./routes/adminRoutes.js";
 
 import menuRoutes from "./routes/menuRoutes.js";
 import orderRoutes from "./routes/orderRoutes.js";
+app.use("/api/tables", tableRoutes);
 
 dotenv.config();
 const app = express();
@@ -21,6 +22,8 @@ app.use("/admin", adminRoutes);
 
 app.use("/api/menu", menuRoutes);
 app.use("/api/orders", orderRoutes);
+
+app.use("/api/tables", tableRoutes);
 
 // MongoDB Connection
 mongoose
