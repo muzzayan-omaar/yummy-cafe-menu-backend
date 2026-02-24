@@ -26,8 +26,6 @@ app.use("/admin", adminRoutes);
 app.use("/api/menu", menuRoutes);
 app.use("/api/orders", orderRoutes);
 
-app.use("/api/tables", tableRoutes);
-
 // MongoDB Connection
 mongoose
   .connect(process.env.MONGO_URI)
