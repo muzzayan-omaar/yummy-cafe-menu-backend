@@ -14,7 +14,6 @@ const app = express();
 dotenv.config();
 
 
-app.use("/api/tables", tableRoutes);
 
 // Middlewares
 app.use(cors());
