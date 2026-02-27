@@ -84,11 +84,11 @@ const SAMPLE_ITEMS = [
     img: "https://res.cloudinary.com/diszilwhc/image/upload/c_fill,w_400,h_300/v1764680116/jack-shingai-hdhWH1xoYwM-unsplash_lnikrh.jpg"
   },
   {
-    name: "Carrot Cake",
+    name: "Whymisu",
     category: "Desserts",
-    price: 4.5,
-    desc: "Moist carrot cake with cream cheese frosting.",
-    img: "https://res.cloudinary.com/diszilwhc/image/upload/c_fill,w_400,h_300/v1764680116/luis-covarrubias-ESXMLLiZcWU-unsplash_hryito.jpg"
+    price: 49,
+    desc: "Specialty Tiramisu  topped with caramel sauce and chocolate balls.",
+    img: "https://res.cloudinary.com/diszilwhc/image/upload/v1772183689/20260227_131256_vgxsug.jpg"
   },
     {
     name: "Salad Sandwich",
